@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image{
+  height: 2%;
+  width: 20%;
+}
+
+@media(max-width: 770px){
+  .image{
+    height: 80%;
+    width: 100%;
+  } 
+}
